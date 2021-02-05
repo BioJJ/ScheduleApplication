@@ -29,7 +29,7 @@ $ docker-compose up -d
 #
 ## Aplicações:
 - WEB -> https://github.com/BioJJ/schedule-web
-- API -> hhttps://github.com/BioJJ/schedule-api
+- API -> https://github.com/BioJJ/schedule-api
 
 ## Technologies used
 The technologies or tools listed below figure between the most relevant on the development of this project:
@@ -39,18 +39,31 @@ The technologies or tools listed below figure between the most relevant on the d
 
 
 FRONTEND
-   - "axios": "^0.21.1",
-   - "bootswatch": "^4.6.0",
-   - "classnames": "^2.2.6",
-   - "primeicons": "^4.1.0",
-   - "primereact": "^6.0.0",
-   - "react": "^17.0.1",
-   - "react-dom": "^17.0.1",
-   - "react-router-dom": "^5.2.0",
-   - "react-scripts": "4.0.1",
-   - "react-transition-group": "^4.4.1",
-   - "toastr": "^2.1.4",
-   - "web-vitals": "^0.2.4"
+ ### "dependencies":
+   - "@angular/animations": "~9.1.0",
+   - "@angular/cdk": "^9.2.0",
+   - "@angular/common": "~9.1.0",
+   - "@angular/compiler": "~9.1.0",
+   - "@angular/core": "~9.1.0",
+   - "@angular/forms": "~9.1.0",
+   - "@angular/material": "^9.2.0",
+   - "@angular/platform-browser": "~9.1.0",
+   - "@angular/platform-browser-dynamic": "~9.1.0",
+   - "@angular/router": "~9.1.0",
+   - "rxjs": "~6.5.4",
+   - "tslib": "^1.10.0",
+   - "zone.js": "~0.10.2"
+ 
+ ### "devDependencies": 
+   - "@angular-devkit/build-angular": "~0.901.0",
+   - "@angular/cli": "~9.1.0",
+   - "@angular/compiler-cli": "~9.1.0",
+   - "@angular/language-service": "~9.1.0",
+   - "@types/node": "^12.11.1",
+   - "ts-node": "~8.3.0",
+   - "tslint": "~6.1.0",
+   - "typescript": "~3.8.3"
+  
 
 BACKEND
    - "cors": "^2.8.5",
