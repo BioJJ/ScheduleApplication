@@ -25,7 +25,7 @@ $ docker-compose up -d
 
 ```
 
-# Acesse a aplicação pelo browser: localhost:80
+## Acesse a aplicação pelo browser: localhost:8082
 
 #
 ## Aplicações:
