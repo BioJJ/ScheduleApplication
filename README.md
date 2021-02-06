@@ -81,16 +81,3 @@ BACKEND
 - Twitter - https://twitter.com/bio_jefferson
 
 
-
-
- api:
-      image: biojj/task-api
-      container_name: task-api
-      expose: 
-        - 3333
-      ports: 
-       - 3333:3333
-      depends_on: 
-       - db
-      env_file: 
-       - ./.env
