@@ -23,8 +23,9 @@ Tarefa:
 # development
 $ docker-compose up -d
 
-
 ```
+
+# Acesse a aplicação pelo browser: localhost:80
 
 #
 ## Aplicações:
