@@ -25,6 +25,17 @@ $ docker-compose up -d
 
 ```
 
+## Verifique se as 3 imagens subiram:
+```bash
+# db
+# schedule-api
+# schedule-web
+$ docker ps
+
+```
+### OBS: caso as 3 não apareçam, repita o comando 'docker-compose up -d'
+
+
 ## Acesse a aplicação pelo browser: localhost:8082
 
 #
@@ -67,12 +78,11 @@ FRONTEND
   
 
 BACKEND
-   - "cors": "^2.8.5",
-   - "dotenv-flow": "^3.2.0",
-   - "express": "^4.17.1",
-   - "knex": "^0.21.16",
-   - "pg": "^8.5.1"
- 
+- java 8
+- Java Spring boot 2.4.RELEASE<
+- Postgress
+- Flyway
+  
 
 ## Stay in touch
 
